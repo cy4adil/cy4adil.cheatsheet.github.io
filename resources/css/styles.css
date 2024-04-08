@@ -1,0 +1,61 @@
+body {
+    background-color: linen;
+}
+
+h1, h2, h3, th, td {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: grey;
+  }
+  
+  table {
+    border: 2px solid grey;
+    background-color: FloralWhite;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  th {
+    background-color: Bisque;
+    padding: 6px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+  
+  p {
+    line-height: 1.4;
+  }
+  
+  tfoot h3 {
+    margin: 4px auto;
+    font-size: 18px;
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+
+  footer p {
+    position: relative;
+    bottom: -50px;
+    left: 0;
+  }
+
+  .nameCol {
+    width: 18%;
+  }
+
+  .selector {
+    background-color: papayawhip;
+    font-family: monospace;
+    font-size: 18px;
+  }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Adil - Cheat Sheet</title>
+        <link rel="stylesheet" href="./resources/css/styles.css">
+    </head>
+    <body>
+        <header>
+        <h1>Html &amp; CSS - Cheat Sheet</h1>
+        </header>
+        <main>
+            <section id="cssSelector">
+                <h2>CSS Selectors</h2>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Selectors</th>
+                        <th class="nameCol">Name</th>
+                        <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td><span class="selector">h1</span></td>
+                        <td>Type Selection</td>
+                        <td>
+                            This way of selection is known as selection by type. Here, we will use html element's tag name to select the specific element to apply the CSS properties.
+                        </td>
+                        </tr>
+                        <tr>
+                        <td><span class="selector">.heading</span></td>
+                        <td>Class Selection</td>
+                        <td>
+                            This selection is called selection by class. It starts with dot and then followed by the name of the class assigned to the specific html element. One class can be assigned to multiple html elements.
+                        </td>
+                        </tr>
+                        <tr>
+                        <td><span class="selector">#specialHeading</span></td>
+                        <td>Id Selection</td>
+                        <td>
+                            This seleciton is called selection by id. It starts with number/hash sign and then followed by the name of the id. Every html tag/element can have only one unique id, we cannot assign one id to multiple html elements. So, id is always unique and points towards only one html element.
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="cssSpecificity">
+                <h2>CSS Selector's Specificity</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selectors</th>
+                            <th class="nameCol">Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="selector">#specialHeading</span></td>
+                            <td>Id Selection</td>
+                            <td>The specificity of id selector will always be on priority by the browser. So, the id selector has more proximity.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="selector">.heading</span></td>
+                            <td>Class Selection</td>
+                            <td>The specificity of class selector comes after the id selector. if there is no id defined for the specific element then class attribute will be given a priority and  CSS ruleset defined in the class selector will be applied to that specific html element.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="selector">h1</span></td>
+                            <td>Type Selection</td>
+                            <td>The specificity of type selector comes after the id and class selector. If there is no id or class selection is defined then browser will consider type selection if it is defined or mentioned.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Copyright &copy; 2024, All Rights Reserved  
+            </p>
+        </footer>
+    </body>
+</html>
